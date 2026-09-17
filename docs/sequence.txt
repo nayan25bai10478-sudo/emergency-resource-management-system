@@ -1,0 +1,27 @@
+SEQUENCE: ASSIGN RESOURCE
+
+Coordinator
+    |
+    v
+Main
+    |
+    v
+IncidentService
+    |
+    | find incident
+    v
+Incident
+    |
+    v
+ResourceService
+    |
+    | check AVAILABLE resources
+    v
+Resource
+    |
+    | assign
+    v
+FileStore
+    |
+    v
+Data saved

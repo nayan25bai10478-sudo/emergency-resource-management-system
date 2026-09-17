@@ -1,0 +1,19 @@
+Suggested demo:
+
+Resource:
+Name: Ambulance 01
+Type: Ambulance
+Location: Main Gate
+
+Resource:
+Name: First Aid Team
+Type: Medical Team
+Location: Block 4
+
+Incident:
+Type: Medical
+Location: Block 4
+Priority: HIGH
+Description: Medical help required
+
+Then use Assign Resource and select RES001.

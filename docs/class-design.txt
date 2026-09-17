@@ -1,0 +1,19 @@
+CLASS DESIGN
+
+Main
+  |
+  +-- IncidentService ---- Incident
+  |         |
+  |         +---- PriorityManager
+  |
+  +-- ResourceService ---- Resource
+  |
+  +-- ReportService
+  |
+  +-- Validator
+  |
+  +-- IdGenerator
+  |
+  +-- FileStore
+
+InputTest checks Validator.

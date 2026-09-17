@@ -1,0 +1,35 @@
+WORKFLOW
+
+Start
+  |
+  v
+Open Main Menu
+  |
+  +--> Add Resource --> Save Resource
+  |
+  +--> Report Incident
+  |        |
+  |        v
+  |   Set Priority
+  |        |
+  |        v
+  |     Save Incident
+  |
+  +--> Assign Resource
+  |        |
+  |        v
+  |   Check Free Resource
+  |        |
+  |        v
+  |   Assign Resource
+  |        |
+  |        v
+  |   Incident = ASSIGNED
+  |   Resource = BUSY
+  |
+  +--> Update Incident
+  |
+  +--> View Report
+  |
+  v
+Exit

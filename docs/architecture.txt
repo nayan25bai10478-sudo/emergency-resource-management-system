@@ -1,0 +1,23 @@
+SYSTEM ARCHITECTURE
+
+             USER
+               |
+               v
+        +--------------+
+        |   Main Menu   |
+        +--------------+
+          /     |      \
+         /      |       \
+        v       v        v
+   Incident  Resource   Report
+   Service   Service    Service
+      |         |          |
+      v         v          v
+   Incident  Resource    Summary
+      \         /
+       \       /
+        v     v
+        FileStore
+           |
+           v
+      Local Text Files

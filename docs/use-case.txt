@@ -1,0 +1,14 @@
+USE CASES
+
+Actor: Emergency Coordinator
+
+1. Add Resource
+2. View Resources
+3. Report Incident
+4. View Incidents
+5. Assign Resource
+6. Update Incident Status
+7. View System Report
+
+Main flow:
+Coordinator -> Main Menu -> Selected Operation -> Service -> File Storage

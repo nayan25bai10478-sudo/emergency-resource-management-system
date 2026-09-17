@@ -1,0 +1,14 @@
+STORAGE DESIGN
+
+The project uses two local text files.
+
+incidents.txt
+id | type | location | priority | status | description | resourceId
+
+resources.txt
+id | name | type | status | location
+
+Relationship:
+
+One incident can have one assigned resource at a time.
+A resource can be AVAILABLE or BUSY.

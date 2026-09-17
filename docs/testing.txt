@@ -1,0 +1,26 @@
+TESTING
+
+Test 1: Valid priority
+Input: HIGH
+Expected: HIGH
+Result: Pass
+
+Test 2: Lowercase priority
+Input: medium
+Expected: MEDIUM
+Result: Pass
+
+Test 3: Invalid priority
+Input: URGENT
+Expected: Error message
+Result: Pass
+
+Test 4: Empty incident type
+Input: empty
+Expected: Error message
+Result: Pass
+
+Test 5: Assign busy resource
+Input: resource already BUSY
+Expected: Assignment rejected
+Result: Pass
